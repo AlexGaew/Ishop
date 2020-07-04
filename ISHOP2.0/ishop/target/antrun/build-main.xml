@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete dir="D:\EclipsrWorkSpase\ISHOP2.0\ishop/src/main/webapp/WEB-INF/lib"/>
+  <copy todir="D:\EclipsrWorkSpase\ISHOP2.0\ishop/src/main/webapp/WEB-INF/lib">
+    <fileset dir="D:\EclipsrWorkSpase\ISHOP2.0\ishop/target/ishop/WEB-INF/lib"/>
+  </copy>
+</target>
+</project>
